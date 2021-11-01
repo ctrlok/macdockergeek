@@ -1,6 +1,6 @@
 Hi there! 
 
-New MacBooks is great, but are they great with Docker? 
+New MacBooks are great, but are they great with Docker? 
 
 I wrapped a Geekbench inside a Docker container and tested it. And some community members [UA lang telegram channel](https://t.me/devops_tricks) contributed their results as well. 
 
