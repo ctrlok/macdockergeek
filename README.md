@@ -1,10 +1,10 @@
 Hi there! 
 
-New macbooks is great, but are they great with docker? 
+New MacBooks are great, but are they great with Docker? 
 
-I wraped a geekbench inside a docker container and tested it. And some community members [UA lang telegram channel](https://t.me/devops_tricks) added their results as well. 
+I wrapped a Geekbench inside a Docker container and tested it. And some community members [UA lang telegram channel](https://t.me/devops_tricks) contributed their results as well. 
 
-Main idea — for mac, put half of your CPU to docker, then run 
+The main idea is to put half of MacBook's CPU in a Docker container and then run 
 
 ```
 docker run --rm -ti ctrlok/geekbench:x86
@@ -14,10 +14,10 @@ docker run --rm -ti ctrlok/geekbench:x86
 docker run --rm -ti ctrlok/geekbench:m1 # for m1 or arm
 ```
 
-Linux and windows machines had a lower overhead in docker mostly because of native implementation. Still, yay for them. 
-Also, x86 docker qemu emulation on M1 pretty aweful, but nice to have it. 
+Linux and Windows machines have a lower overhead in docker mostly because of native implementation. Still, yay for them. 
+Also, x86 docker qemu emulation on M1 is pretty awful but it's nice to have it. 
 
-Want to add something? Feel free to create a PR
+Want to add something? Feel free to create a PR.
 
 # Multicore
 
