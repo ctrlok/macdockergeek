@@ -19,7 +19,7 @@ Also, x86 docker qemu emulation on M1 pretty aweful, but nice to have it.
 
 Want to add something? Feel free to create a PR
 
-# Multycore
+# Multicore
 
 | Name                                                                      | Native              | Docker x86 | Docker aarch64 |
 | ------------------------------------------------------------------------- | ------------------- | ---------- | -------------- |
