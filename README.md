@@ -2,7 +2,7 @@ Hi there!
 
 New macbooks is great, but are they great with docker? 
 
-I wraped a geekbench inside a docker container and tested it. And some [community members](https://t.me/devops_tricks) added their results as well. 
+I wraped a geekbench inside a docker container and tested it. And some community members [UA/RU telegram channel)(https://t.me/devops_tricks) added their results as well. 
 
 Main idea — for mac, put half of your CPU to docker, then run 
 
