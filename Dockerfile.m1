@@ -1,0 +1,5 @@
+FROM ubuntu
+ADD https://cdn.geekbench.com/Geekbench-5.4.0-LinuxARMPreview.tar.gz /root
+WORKDIR /root
+RUN tar -xzf Geekbench-5.4.0-LinuxARMPreview.tar.gz
+CMD /root/Geekbench-5.4.0-LinuxARMPreview/geekbench5
